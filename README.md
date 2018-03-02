@@ -10,7 +10,15 @@ Required package:
     ntlk 3.2.5: https://www.nltk.org/
     
     CRF++ 0.58: https://taku910.github.io/crfpp/
-    
-To perform logistic regression: python3.5 main.py --a lr
 
-To perform conditional random field: python3.5 main.py --a crf --p "path of CRF++-0.58 fold"
+To perform a trivial learner: 
+    
+    python3.5 main.py --a t
+    
+To perform logistic regression: 
+
+    python3.5 main.py --a lr
+
+To perform conditional random field: 
+
+    python3.5 main.py --a crf --p "path of CRF++-0.58 fold"
