@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#-*-coding:utf-8-*-
 """
 Created on Sat Feb 24 2018
 @author: Li, Supeng
