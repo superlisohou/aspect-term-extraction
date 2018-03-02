@@ -94,5 +94,5 @@ def evaluation():
     print('recall:', recall)
     print('precision:', precision)
     print('F1 score:', F1_score)
-    pd.DataFrame(sentences_data).to_csv('extraction result.csv')
+    pd.DataFrame(sentences_data).to_csv('extraction result.csv', index=None)
     print('Please check the "extraction result.csv" to see extracted aspect terms')

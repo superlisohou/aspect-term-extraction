@@ -9,6 +9,7 @@ A simple aspect term extraction with two algorithms: conditional random fields a
 import argparse
 from conditional_random_field import conditional_random_field
 from logistic_regression import logistic_regression
+from trivial_learner import trivial_learner
 from evaluation import evaluation
 
 def main():
