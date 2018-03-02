@@ -20,12 +20,16 @@ def main():
 
     if args.a is None:
         print('Please use --a argument to specify which algorithm to use, ' +
-              'crf for conditional random field and lr for logistic regression' +
+              'crf for conditional random field and lr for logistic regression and t for a trivial learner' +
               'if you choose crf, please also specify the path of CRF++ package')
         return
 
     elif args.a == 'lr':
         logistic_regression()
+        evaluation()
+
+    elif args.a == 't':
+        trivial_learner()
         evaluation()
 
     elif args.a == 'crf':
