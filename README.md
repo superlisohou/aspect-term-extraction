@@ -21,4 +21,4 @@ To perform logistic regression:
 
 To perform conditional random field: 
 
-    python3.5 main.py --a crf --p "path of CRF++-0.58 fold"
+    python3.5 main.py --a crf --p "path of CRF++-0.58 folder"
